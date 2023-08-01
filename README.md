@@ -1,30 +1,62 @@
-# HORIZON-TechFest-Website
-This is the website of the HORIZON TechFest of IIIT Vadodara - International Campus Diu 
+# HORIZON Technical Festival Website (Backend)
 
-## How to run 
+![HORIZON Logo](./assets/logo.png)
 
-1. Go to the root of the `Backend` folder.
-2. Run the following command to install packages.
+## Table of Contents
 
-   ```bash
-   npm install
-   ```
+- [Introduction](#introduction)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Frontend Repository](#frontend-repository)
 
-3. Run the following command to start the application.
+## Introduction
 
-   ```bash
-   node app.js 
-       or
-   nodemon app.js
-   ```
-   
-4. Frontend
+This repository contains the backend source code for the HORIZON Technical Festival website developed for IIIT Vadodara - ICD. The backend handles data management, authentication, and other server-side functionalities required to support the frontend. It is built using Node.js, Express.js, and MongoDB for data storage.
 
-- Open a terminal in the root of the Frontend folder.
-- Run npm install.
-- Run npm start or yarn start to run react scripts ( Avoid Unusal Warnings )
+## Technologies Used
 
-5. Open a browser and navigate to `http://localhost:3000/`.
+- Node.js
+- Express.js
+- MongoDB
 
+## Getting Started
 
+To get a local copy of the backend up and running on your machine, follow these steps:
 
+1. Clone the backend repository:
+
+```bash
+git clone https://github.com/Hrishubh/HORIZON-TechFest-Website-BACKEND.git
+```
+
+2. Change into the backend directory:
+
+```bash
+cd HORIZON-TechFest-Website-BACKEND
+```
+
+3. Install backend dependencies:
+
+```bash
+npm install
+```
+
+4. Start the server:
+
+```bash
+npm start
+```
+
+## Usage
+
+The backend provides APIs for the frontend to interact with the database and handle user authentication. It is designed to work in conjunction with the frontend to provide a seamless user experience during the HORIZON Technical Festival.
+
+## Contributing
+
+If you would like to contribute to the development of the backend, you are welcome to submit pull requests. Before making significant changes, please open an issue to discuss the proposed changes.
+
+## Frontend Repository
+
+The frontend code for this project is hosted on GitHub at:<br> https://github.com/Hrishubh/HORIZON-TechFest-Website-FRONTEND
